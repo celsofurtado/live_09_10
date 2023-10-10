@@ -52,12 +52,14 @@ public class Teste {
 			
 			System.out.println("O resultado da divisão é: " + resultado);
 			
-			FileReader fr = new FileReader("arquivo.txt");
+			//FileReader fr = new FileReader("arquivo.txt");
 			
-		} catch (ArithmeticException | ArrayIndexOutOfBoundsException | NullPointerException | FileNotFoundException erro) {
+		} catch (ArithmeticException | ArrayIndexOutOfBoundsException | NullPointerException erro) {
 			System.out.println(erro.getMessage());
 			//erro.printStackTrace();
 			//System.out.println("Não é possível divisão por ZERO!!");
+		} finally {
+			System.out.println("Método FINALLY EXECUTADO...");
 		}
 //		} catch (ArrayIndexOutOfBoundsException erro) {
 //			erro.printStackTrace();

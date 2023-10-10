@@ -10,13 +10,13 @@ public class Live0910 {
 		
 		System.out.println("Chamando o método somar...");
 		
-		t.somar(6);
+		//t.somar(6);
 		
 //		System.out.println("Finalizando o método main...");
 //		
 //		t.efetuarLooping();
 //		
-//		t.dividir(0);
+		t.dividir(10);
 
 	}
 
